@@ -1,0 +1,62 @@
+body {
+    background: rgb( 191, 208, 216);
+    color: rgb( 13, 25, 38);
+    padding: 10px;
+    font-family: fjalla one;
+}
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb( 191, 208, 216);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb( 4, 7, 38);
+    flex: 10;
+}
+nav ul {
+    list-style-image: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav a {
+    text-decoration: fjalla one;
+    color: #333;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb( 135, 70, 92);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+.interests header {
+    font-size: 1.25em;
+}
+.contact-info header {
+    font-size: 1.25em;
+}
